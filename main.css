@@ -1,0 +1,58 @@
+body{
+    font: normal 15px arial;
+    background: orange;
+}
+
+#dados{
+    background: blueviolet;
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    margin: 60px auto;
+    color: white;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 30px;
+}
+#txta, #txtp{
+    padding: 15px;
+    border-radius: 30px;
+    border-color: white;
+    background: blueviolet;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.349);
+}
+#txta:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+#txta:not(:hover){
+    padding: 15px;
+    transition: 0.5s;
+}
+#txtp:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+#txtp:not(:hover){
+    padding: 15px;
+    transition: 0.5s;
+}
+#btn{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background: orange;
+    color: blueviolet;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.349);
+}
+#btn:hover{
+    padding: 30px;
+    transition: 0.5s;
+}
+#btn:not(:hover){
+    padding: 15px;
+    transition: 0.5s;
+}
